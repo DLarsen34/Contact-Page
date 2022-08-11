@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/56071c1e08.js" crossorigin="anonymous"></script>
+    <title>Dalton Larsen Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <nav>
+      <img class ="logo" src="src/images/logo.png" alt="Dalton Larsen Logo"></img>
+      <ul class="nav-bar" id="nav-list">
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="https://github.com/DLarsen34">GitHub</a></li>
+        <li><a href="pages/contact.html">Contact me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <div class="hero">
+      <div class="hero-info">
+          <h1 id="name">Dalton Larsen</h1>
+          <p>I am a graduate of Weber State University in Computer Science. I have a love for coding and web design</p>
+          <div class="styled-break"></div>
+          <div class="button">Hire Me</div>
+      </div>
+      <div>
+        <img class ="hero-image" src=src/images/working-illustration.png alt="Working illustration of a man" />
+      </div>
+    </div>
+    <section>
+      <div class="about-me">
+          <img class="avatar" src="src/images/ProfilePic.jpg" alt="Profile Picture" />
+      </div>
+      <div class="info">  
+        <h2><a name="about-me">About me</a></h2>
+        <p>Born and raised in Utah, I love coding!</p>
+      </div> 
+    </section>
+    <section>
+        <i class="far fa-regular fa-user"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+        <i class="far fa-solid fa-bell"></i>
+    </section>
+    <section>
+        <form>
+          <h2>Contact Me</h2>
+          <div class="input-section">
+            <div class="input-group">
+              <label for="first-name">First Name:</label>
+              <input type="text" id="first-name" value="John" name="first-name"></input>
+            </div>
+            <div class="input-group">
+              <label for="last-name">Last Name:</label>
+              <input type="text" id="last-name" value="Doe" name="last-name"></input>
+            </div>
+          </div>
+          <div class="input-section">
+            <input type="radio" id="office" value="office" name="office"></input>
+            <label for="office">Office</label>
+            <input type="radio" id="remote" value="remote" name="remote"></input>
+            <label for="remote">Remote</label>
+            <input type="radio" id="other" value="other" name="other"></input>
+            <label for="other">Other</label>
+          </div>
+          <div class="input-section">
+            <input type="checkbox" id="full-time" value="full-time" name="full-time"></input>
+            <label for="full-time">Full Time</label>
+            <input type="checkbox" id="conrtact" value="contract" name="contract"></input>
+            <label for="contract">Contract</label>
+            <input type="checkbox" id="sponsorship" value="sponsorship" name="sponsorship"></input>
+            <label for="sponsorship">Sponsorship</label>
+          </div>
+          
+          <input type="submit" class="button" value="submit"></input>
+        </form>
+      </section>
+    <footer>
+      <ul>
+        <li><a href="">About me</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="https://github.com/DLarsen34">Github</a></li>
+      </ul>
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
